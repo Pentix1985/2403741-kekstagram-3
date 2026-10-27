@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
 * Студент: [Антон Полякин](https://up.htmlacademy.ru/javascript-individual/3/user/2403741).
-* Наставник: `Неизвестно`.
+* Наставник: [Станислав Михайлов](https://htmlacademy.ru/profile/id139638).
 
 ---
 
