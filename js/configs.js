@@ -26,4 +26,11 @@ const MockConfig = Object.freeze({
   BASE_TEXT: 'Всё отлично! В целом всё неплохо. Но не всё. Когда вы делаете фотографию, хорошо бы убирать палец из кадра. В конце концов это просто непрофессионально. Моя бабушка случайно чихнула с фотоаппаратом в руках и у неё получилась фотография лучше. Я поскользнулся на банановой кожуре и уронил фотоаппарат на кота и у меня получилась фотография лучше. Лица у людей на фотке перекошены, как будто их избивают. Как можно было поймать такой неудачный момент?!',
 });
 
-export { MockConfig };
+const RenderPictureConfig = Object.freeze({
+  TEMPLATE_NAME: '#picture',
+  TEMPLATE_ROOT: '.picture',
+  TEMPLATE_LIKES: '.picture__likes',
+  TEMPLATE_COMMENTS: '.picture__comments',
+});
+
+export { MockConfig, RenderPictureConfig };
