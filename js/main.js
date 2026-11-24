@@ -1,6 +1,7 @@
 import { mockDateGenerator } from './moke-generator.js';
-import { MockConfig, RenderPictureConfig } from './configs.js';
-import { renderPictures } from './render-pictures.js';
+import { MockConfig } from './configs.js';
+import { createGallery } from './gallery.js';
 
 const mockData = mockDateGenerator(MockConfig);
-renderPictures('.pictures', mockData, RenderPictureConfig);
+createGallery('.pictures', mockData);
+
