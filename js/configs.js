@@ -33,4 +33,11 @@ const RenderPictureConfig = Object.freeze({
   TEMPLATE_COMMENTS: '.picture__comments',
 });
 
-export { MockConfig, RenderPictureConfig };
+const COMMENTS_DISPLAY = 5;
+
+const commentConfig = Object.freeze({
+  COMMENT_WIDTH: 35,
+  COMMENT_HEIGHT: 35
+});
+
+export { MockConfig, RenderPictureConfig, COMMENTS_DISPLAY, commentConfig };
